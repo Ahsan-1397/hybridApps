@@ -1,0 +1,86 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 40%;
+        margin-top: 0;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding: 0%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        height: 30px;
+        height: 30px;
+        padding: 2pxs;
+    }
+    
+    li {
+        display: inline-block;
+    }
+    
+    li :link {
+        color: red;
+    }
+    
+    a :visited {
+        color: cyan;
+    }
+    
+    li :hover {
+        background-color: #D1202F;
+        color: white;
+    }
+    
+    li :active {
+        color: chartreuse;
+    }
+    
+    h1 {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        color: #E86773;
+        font-size: 80px
+    }
+    
+    button {
+        height: 40px;
+        width: 120px;
+        background-color: white;
+        border: 0;
+        text-align: center;
+        vertical-align: bottom;
+    }
+    /* IMG WITH NAME AT CENTER */
+    
+    .content {
+        margin-left: 80px;
+    }
+    
+    .photo {
+        margin-top: 10px;
+        box-sizing: border-box;
+        border-radius: 75px;
+        overflow: hidden;
+        margin: 20px;
+        float: left;
+    }
+    
+    .photo-name {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        max-width: 100%;
+        font-size: 30px;
+        position: absolute;
+        margin-left: auto;
+        clear: left;
+    }
